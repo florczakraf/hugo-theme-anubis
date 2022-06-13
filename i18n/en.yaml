@@ -5,13 +5,13 @@ theme:
   other: "theme"
 
 readMore:
-  other: "Read more"
+  other: "Continue reading…"
 
 toNewPosts:
-  other: "to new posts"
+  other: "View newer posts"
 
 toOldPosts:
-  other: "to old posts"
+  other: "View older posts"
 
 tag:
   other: "tag"
