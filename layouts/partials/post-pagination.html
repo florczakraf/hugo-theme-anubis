@@ -1,15 +1,24 @@
 {{ if or ( .PrevInSection ) ( .NextInSection ) }}
     <div class="pagination post-pagination">
-        <div class="left pagination-item {{ if not .NextInSection }}disabled{{ end }}">
-            {{ if .NextInSection }}
-                <a href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }}</a>
-            {{ end }}
-        </div>
-        <div class="right pagination-item {{ if not .PrevInSection }}disabled{{ end }}">
-            {{ if .PrevInSection }}
-                <a href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>
-            {{ end }}
-        </div>
+        {{ if .NextInSection }}
+            <a href="{{ .NextInSection.RelPermalink }}">
+                <div class="left pagination-item">
+                    ⇦ {{ .NextInSection.Title }}
+                </div>
+            </a>
+        {{ else }}
+        <div class="left pagination-item disabled"></div>
+        {{ end }}
+
+        {{ if .PrevInSection }}
+            <a href="{{ .PrevInSection.RelPermalink }}">
+                <div class="right pagination-item">
+                    {{ .PrevInSection.Title }} ⇨
+                </div>
+            </a>
+        {{ else }}
+            <div class="right pagination-item disabled"></div>
+        {{ end }}
     </div>
 {{ end }}
 
