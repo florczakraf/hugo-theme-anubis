@@ -2,6 +2,7 @@ social_icons:
   email: mailto:%s
   facebook: https://www.facebook.com/%s
   github: https://github.com/%s
+  gitlab: https://gitlab.com/%s
   instagram: https://www.instagram.com/%s
   linkedin: https://www.linkedin.com/in/%s
   patreon: https://www.patreon.com/%s
