@@ -144,7 +144,6 @@ th, td {
 
 /* Code */
 pre {
-    padding: 1em;
     max-width: 100%;
     overflow: auto;
 }
@@ -157,6 +156,7 @@ kbd {
     font-family: monospace;
     font-size: 0.90em;
     line-height: 154%;
+    padding: 0.3em;
 }
 
 pre code, pre kbd {
