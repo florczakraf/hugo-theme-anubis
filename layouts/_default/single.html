@@ -16,9 +16,7 @@
             </header>
         </div>
         <div class="content e-content">
-            {{ $content := .Content }}
-            {{ $content = replaceRE `<a href="(https?://.+)">` `<a href="$1" target="_blank">` $content | safeHTML }}
-            {{ $content | safeHTML }}
+            {{ replaceRE `<a href="(https?://.+?)">` `<a href="$1" target="_blank">` .Content | safeHTML }}
         </div>
         {{ partial "post-info.html" . }}
     </article>
