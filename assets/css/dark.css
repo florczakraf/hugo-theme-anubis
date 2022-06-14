@@ -1,10 +1,10 @@
-/* dark.css */ 
---font-color: #eee;
+/* dark.css */
+--font-color: #fff;
 --bg-color: #212121;
 
---link-color:#599ada;
---link-state-color:#ff5858;
---link-state-border-color: rgba(238, 54, 54, 0.5);
+--link-color:#8aa5ff;
+--link-state-color:rgb(92, 162, 255);
+--link-state-border-color: rgba(92, 162, 255, 0.5);
 
 --thead-bg-color: #343a40;
 --table-border-color: lightgrey;
@@ -12,8 +12,8 @@
 --nav-bg-color: #242424;
 --nav-link-color: #b6b6b6;
 
---pre-color: #f8f8f2;
---pre-bg-color: #272822;
+--pre-color: #ffffff;
+--pre-bg-color: #4c4d47;
 
 --bq-color: #ccc;
 --hr-color: #333;
