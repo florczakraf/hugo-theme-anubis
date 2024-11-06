@@ -16,8 +16,14 @@ toOldPosts:
 tag:
   other: "tag"
 
+tags:
+  other: "tags"
+
 Tags:
   other: "Tags"
+
+posts:
+  other: "posts"
 
 Posts:
   other: "Posts"
